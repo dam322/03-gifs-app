@@ -7,7 +7,7 @@ import { GifData } from '../../interfaces/gifs.interfaces';
   templateUrl: './home-page.component.html',
 })
 export class HomePageComponent {
-  constructor( private gifService: GifsService) { }
+  constructor(private gifService: GifsService) { }
 
   get gifsToShow(): GifData[] {
     return this.gifService.gifList;

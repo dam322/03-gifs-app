@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 import { GifData } from '../../interfaces/gifs.interfaces';
 
 @Component({

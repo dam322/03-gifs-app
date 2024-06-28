@@ -43,7 +43,7 @@ export class GifsService {
     if (!tags) return
     this._tagsHistory = JSON.parse(tags);
 
-    if(this._tagsHistory.length === 0) return;
+    if (this._tagsHistory.length === 0) return;
     this.searchTag(this._tagsHistory[0]);
   }
 
